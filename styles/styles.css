@@ -1,0 +1,38 @@
+/* Estilização section Home index.html */
+
+section.home {
+    height: 81.5vh;
+    display: flex;
+}
+
+section.home div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+section.home div .soluctions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    height: 20rem;
+}
+
+
+section.home div .soluctions .title {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+section.home div .soluctions small {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #9B9B9B; 
+}
+
+
