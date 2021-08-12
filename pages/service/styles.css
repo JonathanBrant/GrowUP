@@ -1,0 +1,28 @@
+section.services h1 {
+    margin: 3rem 0 1rem 0;
+}
+
+section.services .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 1.5rem;
+}
+
+section.services .flex .text {
+    width: 45%;
+    height: 28rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: justify;
+}
+
+
+section.services .flex .text p {
+    margin-bottom: 2rem;
+}
+

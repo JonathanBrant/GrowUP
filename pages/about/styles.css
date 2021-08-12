@@ -1,0 +1,49 @@
+section.about h1 {
+    margin: 3rem 0 1rem 0;
+}
+
+section.about .flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 1.5rem;
+}
+
+section.about .flex .text {
+    width: 45%;
+    height: 28rem;
+}
+
+
+section.about .flex .text p {
+    margin-bottom: 2rem;
+}
+
+
+section.about ol {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #9B9B9B;
+    margin-left: 1.5rem;
+}
+
+section.about img {
+    width: 120%;
+}
+
+section.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+section.values {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+section.values article {
+    margin-bottom: 4rem ;
+}
