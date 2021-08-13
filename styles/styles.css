@@ -9,8 +9,12 @@ section.home div{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 
+}
 
+section.home div img {
+    max-width: 100%;
 }
 
 section.home div .soluctions {
@@ -35,4 +39,18 @@ section.home div .soluctions small {
     color: #9B9B9B; 
 }
 
+@media (max-width: 733px) {
+    section.home div {
+        flex-direction: column; 
+        
+    }
+
+    section.home div .soluctions {
+        height: 3rem;
+    }
+
+    footer {
+        display: none;
+    }
+}
 

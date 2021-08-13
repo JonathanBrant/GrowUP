@@ -93,3 +93,12 @@ footer p {
     color: white;
 }
 
+@media (max-width: 733px) {
+    header {
+        flex-direction: column;
+        height: 20vh;
+    }
+
+    
+}
+
