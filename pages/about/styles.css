@@ -47,3 +47,7 @@ section.values {
 section.values article {
     margin-bottom: 4rem ;
 }
+
+section.values article:last-child {
+    margin-bottom: 8rem ;
+}
