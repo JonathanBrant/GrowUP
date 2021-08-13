@@ -1,0 +1,81 @@
+h1.container {
+    margin-top: 3rem;
+}
+
+section.infos {
+    display: flex;
+    align-items: center;
+    height: 65.8vh;
+}
+
+section.infos .container {
+    display: flex;
+    align-items: center;
+
+}
+
+section.infos .container .contact {
+    width: 50%;
+}
+
+section.infos .container .map {
+    width: 50%;
+}
+
+section.infos .container .contact form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #9B9B9B;
+}
+
+section.infos .container .map {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+section.infos .container .map small {
+    color: #9B9B9B;
+    margin-bottom: 1.875rem;
+}
+
+section.infos .container .map span {
+    color: #00796B;
+}
+
+section.infos .container .contact button {
+    width: 175px;
+    height: 33px;
+    border: none;
+    color: white;
+    background: #009688;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+section.infos .container .contact form label:first-child {
+    margin-top: 0;
+}
+
+section.infos .container .contact form label {
+    margin: 2rem 0 0.3rem 0;
+}
+
+section.infos .container .contact form input{
+    width: 90%;
+    height: 26px;
+    border: solid 1px #9B9B9B;
+    
+}
+
+section.infos .container .contact form #message {
+    height: 78px;
+}
+
+
+
+
+
